@@ -1,0 +1,48 @@
+/*html,
+body{
+  margin:0 ;
+}
+
+#App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#page-wrap{
+  text-align: center;
+  overflow: auto;
+}
+*/
+
+/* inserted by chandana 19 nov 2019. */
+* {
+    margin: 0; padding: 0;
+}
+html, body, #container {
+    height: 100%;
+}
+header {
+    height: 50px;
+    background: gray;
+}
+main {
+    height: calc(100% - 50px);
+    background:#FFFFFF;
+}
+.half {
+  height: 50%;
+}
+.half2 {
+    height: 50%;
+}
+.half:first-child {
+    background:#BEBEBE;;
+}
+.half:last-child {
+    background:#DCDCDC;
+}
+.canvas.chartjs-size-monitor{
+  height: 50%;
+}
+.chartjs-render-monitor{height: 50%;
+}
